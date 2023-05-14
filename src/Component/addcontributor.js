@@ -19,7 +19,7 @@ const Addconbtributor = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post('base_url+/saveuser', {
+        axios.post(base_url+'/saveuser', {
             user_id: userId,
             email: Email,
             password: Password,
