@@ -74,7 +74,7 @@ const searchChange = (e)=>{
 
   return ( <Navbar expand="lg" variant="light" bg="white">
   <Container>
-    <Navbar.Brand href="/home" className="heading"><span className="heading"><b>IIITB Outreach Portal</b></span></Navbar.Brand>
+    <Navbar.Brand href="/home" className="heading"><span className="heading"><b>IIITB Student-Sphere Portal</b></span></Navbar.Brand>
 
 
 
