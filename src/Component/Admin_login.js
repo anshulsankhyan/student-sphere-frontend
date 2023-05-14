@@ -51,7 +51,7 @@ const Admin_login = (props)=>{
             method: 'post',
             url: base_url+'/adminlogin',
             data: {
-                userName: username1,
+                username: username1,
                 password: password1
             }
         })

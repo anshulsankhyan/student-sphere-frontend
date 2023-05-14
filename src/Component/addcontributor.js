@@ -124,16 +124,16 @@ const Addconbtributor = () => {
                         ></input>
                 </div>
                 <br></br>
-                <div>
-                <label htmlFor='Role'>Role:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input
-                        type='boolean'
-                        id='Role'
-                        name='Role'
-                        value={Role}
-                        onChange={(e) => setRole(e.target.value)}
-                        ></input>
-                </div>
+                {/*<div>*/}
+                {/*<label htmlFor='Role'>Role:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>*/}
+                {/*    <input*/}
+                {/*        type='boolean'*/}
+                {/*        id='Role'*/}
+                {/*        name='Role'*/}
+                {/*        value={Role}*/}
+                {/*        onChange={(e) => setRole(e.target.value)}*/}
+                {/*        ></input>*/}
+                {/*</div>*/}
    </div>
                 <button  align='centre' color="blue" type="submit">Submit</button>
 

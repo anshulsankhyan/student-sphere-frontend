@@ -2,7 +2,7 @@ import React from "react";
 import Nav from 'react-bootstrap/Nav'
 import logout from './icon/logout.png'
 import { Card, CardImg} from 'reactstrap';
-import "/home/anisha/Desktop/outreach-portal-frontend-master/src/Component/css/managecontributors.css";
+// import "/home/anisha/Desktop/outreach-portal-frontend-master/src/Component/css/managecontributors.css";
 import { useHistory } from 'react-router-dom';
 import { CardBody} from 'reactstrap';
 
