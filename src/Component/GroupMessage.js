@@ -190,7 +190,7 @@ const GroupMessage = (props)=>{
       {groupInfo && <div className='name_container'>
         <p>Group name: {groupInfo.name}</p>
         <p>Group Id&nbsp;&nbsp;: {groupInfo.id}</p>
-        <p>Group Link&nbsp;&nbsp;: {+"/group/"+groupInfo.id}</p>  </div>}
+        <p>Group Link&nbsp;&nbsp;: {"http://localhost:3000"+"/group/"+groupInfo.id}</p>  </div>}
           {grpMember && grpMember.map((data)=>{
             return     <div className="button_container name_container"  key={data.user_id} onClick={()=>profile(data.user_id)}>
                       <img alt="" src={data.profile_pic} className='profile_pic'/>
